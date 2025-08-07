@@ -1,15 +1,46 @@
 {
-  "name": "whatsapp-menu-bot",
+  "name": "QBot",
   "version": "1.0.0",
-  "description": "A simple WhatsApp menu bot using whatsapp-web.js",
+  "description": "ROYALE_BOT-MD,A multi functional whatsapp bot. ❤️",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start index.js --deep-monitoring --attach --QBot",
+    "stop": "pm2 stop QBot",
+    "restart": "pm2 restart QBot"
   },
-  "author": "You",
-  "license": "MIT",
+  "author": "Tharindu",
+  "license": "ISC"
+  },
   "dependencies": {
+    "@whiskeysockets/baileys": "6.7.8",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "pino": "^7.0.5",
+    "pm2": "^5.2.0",
+    "util": "^0.12.4",
+    "express": "latest",
+    "axios": "^1.2.5",
+    "file_size_url": "^1.0.4",
+    "fs-extra": "^11.1.0",
+    "path": "^0.12.7",
+    "node-fetch": "^2.6.1",
+    "megajs": "^1.1.0",
+    "vm": "^0.1.0",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.18.6"
+    "yt-search":"2.12.1",
+    "api-dylux":"1.8.5",
+    "cheerio" : "1.0.0",
+    "g-i-s": "^2.1.7",
+    "mfiredlcore-vihangayt": "^1.0.0",
+    "@bochilteam/scraper": "latest",
+    "@sl-code-lords/si-subdl": "^1.1.1",
+    "@sl-code-lords/esana-news": "latest",
+    "youtubedl-core": "^4.11.5",
+    "moment-timezone": "latest",
+    "google-tts-api":"2.0.2",
+    "wa-sticker-formatter":"4.4.4",
+    "ytdl-core": "^4.11.5",
+    "mongodb": "^6.9.0",
+    "hirunews-scrap": "^1.1.2"
   }
-}
+},
