@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-menu-bot",
+  "version": "1.0.0",
+  "description": "A simple WhatsApp menu bot using whatsapp-web.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.6"
+  }
+}
